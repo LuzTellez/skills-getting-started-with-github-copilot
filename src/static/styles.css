@@ -108,6 +108,61 @@ button:hover {
   background-color: #3949ab;
 }
 
+.activity-card .participants-section {
+  margin-top: 15px;
+}
+
+.participant-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 8px;
+  margin-top: 10px;
+}
+
+.participant-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px 6px 12px;
+  border-radius: 999px;
+  background-color: #e3f2fd;
+  color: #0d47a1;
+  border: 1px solid #90caf9;
+  font-size: 0.95rem;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #0d47a1;
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: rgba(13, 71, 161, 0.1);
+  color: #c62828;
+}
+
+.delete-btn:active {
+  background-color: rgba(13, 71, 161, 0.2);
+}
+
+.no-participants {
+  margin-top: 8px;
+  font-style: italic;
+  color: #666;
+}
+
 .message {
   margin-top: 20px;
   padding: 10px;
